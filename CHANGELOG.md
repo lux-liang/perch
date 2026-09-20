@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.4.0](https://github.com/lakeday-org/perch/compare/v0.3.3...v0.4.0) (2026-09-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename TYPESAFE_API_KEY to PERCH_API_KEY in the environment or .env file. PERCH_BASE_URL is the complete request URL.
+
+### Features
+
+* scan_types decides which issue types a scan asks about ([#62](https://github.com/lakeday-org/perch/issues/62)) ([27868d0](https://github.com/lakeday-org/perch/commit/27868d0b1a7c0abb9626aaedb78f2a86f820f100))
+
+
+### Bug Fixes
+
+* allow custom API endpoints and models ([#77](https://github.com/lakeday-org/perch/issues/77)) ([ba775a9](https://github.com/lakeday-org/perch/commit/ba775a9940b63c162679964b29f84b8ca8e54d59))
+
 ## [0.3.3](https://github.com/lakeday-org/perch/compare/v0.3.2...v0.3.3) (2026-09-19)
 
 
